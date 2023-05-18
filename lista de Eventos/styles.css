@@ -232,3 +232,20 @@ button {
   }
 
 }
+
+@media (max-width: 400px) {
+  #contenedor1,
+  #contenedor2 {
+    width: 100%;
+    display: block;
+    height: 5rem;
+  }
+  .wheelContenedor {
+    padding: 0;
+  }
+  .botons{
+    flex-direction: column;
+    height: auto;
+  }
+
+}
